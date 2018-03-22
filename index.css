@@ -1,0 +1,93 @@
+*{
+  font-family: 'Roboto', helvetica, sans-serif;
+  font-size:16px;
+}
+body{
+  background-color: dodgerblue;
+}
+
+
+h1{
+ 
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.logo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 25px;
+  height: 35px;
+}
+
+.signupbox{
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  max-width: 400px;
+  max-height:400px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  
+}
+label{
+  display:block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+/*Normalized fieldset came with default styles (border) that was not needed*/
+fieldset{
+  border:none;
+}
+input{
+  position:inherit;
+  width:320px;
+  max-height:55px;
+  margin-left:auto;
+  margin-right: auto;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  border-radius: 5px;
+  
+}
+button{
+  display:block;
+  width: 355px;
+  max-height:55px;
+  margin-left:0px;
+  margin-right: 0px;
+  background-color: limegreen;
+  color:white;
+  padding: 15px;
+  border: solid 2px limegreen;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size:18px;
+  margin-top: 20px;
+}
+
+button:hover{
+  background-color:darkgreen;
+}
+footer{
+  display: block;
+  margin-top: -80px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 320px;
+  color: white;
+  
+}
+a,href{
+  color:white;
+}
+
+a:hover{
+  color:darkblue;
+}
